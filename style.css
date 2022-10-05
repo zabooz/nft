@@ -15,6 +15,7 @@ main{
     max-width: 25rem;
     padding:1.7rem;
     border-radius: 1.5rem;
+    box-shadow: 0rem 0rem 2rem 3rem hsla(217, 39%, 13%, 0.123)
 }
 img {
     border-radius: 1rem;
