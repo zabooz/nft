@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;900&display=swap');
 body{
     background-color: hsl(217, 54%, 11%);
     margin: 0;
@@ -13,7 +13,7 @@ body{
 main{
     background-color: hsl(216, 50%, 16%);
     max-width: 25rem;
-    padding:2.5rem;
+    padding:1.7rem;
     border-radius: 1.5rem;
 }
 img {
@@ -21,42 +21,64 @@ img {
     width:100%; 
 }
 main > p{
-   opacity: .3;
+   opacity: .6;
    font-size: 1.3rem;
+   font-weight: 100;
+
 }
 h1 {
-    opacity: .7;
-    font-weight: 600;
+    opacity: .8;
+    font-weight: 500;
     font-size: 1.8rem;
 }
 .info {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-.icon {
-    max-width: 2rem;
-    max-height: 2rem;
+    border-bottom: 1px solid hsl(215, 32%, 27%);
+    padding-bottom: .5rem;
 }
 .info > p{
     font-size: 1.3rem;
 }
+
 .eth,
 .days {
     display: flex;
     align-items: center;
-    gap: 1.5rem;
+    gap: 1rem;
     flex:1;
+}
+.eth-icon {
+    width: .7rem;
+}
+.eth > p{
+    color: hsl(178, 100%, 50%)
 }
 .days {
     justify-content: flex-end;
 }
-
-
+.days-icon {
+    max-width: 1.5rem;
+}
+.days > p {
+    opacity: .6;
+    font-weight: 100;
+}
 .creator {
     display: flex;
     align-items: center;
+    margin-top: 1rem;
+    gap: 1rem;
 }
 #avatar {
-    width: 3rem;
+    width: 1.7rem;
+    border: 1px solid white;
+}
+span {
+    opacity: .4;
+}
+footer {
+    position: absolute;
+    bottom: 0;
 }
